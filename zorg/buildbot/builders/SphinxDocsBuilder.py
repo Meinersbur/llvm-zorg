@@ -331,6 +331,7 @@ def getLLVMRuntimesDocsBuildFactory(
             "libcxxabi",
             "libunwind",
             "libc",
+            "openmp",
         ]
     else:
         # Make a local copy of depends_on_runtimes, as we are going to modify
